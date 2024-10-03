@@ -1,0 +1,16 @@
+services:
+  backend:
+    build:
+      context: ./code
+      dockerfile: deployment/api/Dockerfile
+    ports:
+      - "8001:8001"
+
+  frontend:
+    build:
+      context: ./code/deployment/app
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - BACKEND_URL=http://backend:8001

@@ -1,0 +1,9 @@
+numpy==1.23.5
+pandas
+# pickle5
+scikit-learn==1.2.2
+requests==2.31.0
+fastapi==0.103.1
+pydantic==1.10.9
+uvicorn
+joblib
