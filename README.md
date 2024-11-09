@@ -55,5 +55,3 @@ To set up the project locally, follow these steps:
     - Width (float)
 3. Click the "Predict" button to receive the predicted price of the diamond.
 
-## Directory Structure
-
