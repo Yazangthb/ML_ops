@@ -33,6 +33,27 @@ This repository contains a machine learning application for predicting diamond p
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/diamond-price-prediction.git
-   cd diamond-price-prediction
+    ```bash
+    git clone https://github.com/yourusername/diamond-price-prediction.git
+    cd diamond-price-prediction
+    ```
+
+2. Build and run the Docker containers:
+    ```bash
+    docker-compose up --build
+    ```
+
+3. Access the application in your web browser at [http://localhost:8000](http://localhost:8000).
+
+## Usage
+
+1. Open your web browser and navigate to [http://localhost:8000](http://localhost:8000).
+2. Input the diamond characteristics:
+    - Carat (float)
+    - Color (integer from 0 to 6)
+    - Length (float)
+    - Width (float)
+3. Click the "Predict" button to receive the predicted price of the diamond.
+
+## Directory Structure
+
